@@ -5,6 +5,137 @@
 
 #home .bgr-home {
   background: url("../../img/cover.jpg") no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+  #home .bgr-home .bgr-home_inside {
+    background: rgba(30, 34, 36, 0.6);
+    padding: 250px 0 40px 0; }
+    #home .bgr-home .bgr-home_inside h4, #home .bgr-home .bgr-home_inside h1 {
+      color: #fff; }
+    #home .bgr-home .bgr-home_inside h1 {
+      margin: 25px 0;
+      text-transform: uppercase;
+      font-weight: 800;
+      letter-spacing: 5px;
+      font-size: 40px;
+      line-height: 28px; }
+    #home .bgr-home .bgr-home_inside h4 {
+      font-size: 16px;
+      line-height: 29px;
+      font-weight: 300; }
+    #home .bgr-home .bgr-home_inside .circle {
+      margin: 190px auto 0 auto;
+      width: 50px;
+      height: 50px;
+      border: 2px solid white;
+      border-radius: 50%;
+      cursor: pointer;
+      position: relative; }
+      #home .bgr-home .bgr-home_inside .circle div {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 50%;
+        top: 10%;
+        margin: 0 0 0 -5px;
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+        -webkit-animation: bot 1.5s infinite ease-out;
+                animation: bot 1.5s infinite ease-out; }
+@-webkit-keyframes bot {
+  50% {
+    opacity: .8; }
+  100% {
+    top: 70%;
+    opacity: 0; } }
+@keyframes bot {
+  50% {
+    opacity: .8; }
+  100% {
+    top: 70%;
+    opacity: 0; } }
+#menu .fixed-menu {
+  position: fixed;
+  width: 100%;
+  padding: 10px 8%;
+  background: white;
+  z-index: 1000; }
+#menu .logo-text {
+  font-family: "Lobster", "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: 3px; }
+#menu ul {
+  text-align: right; }
+  #menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 13px; }
+    #menu ul li a {
+      font-family: "Raleway", sans-serif;
+      color: black;
+      font-size: 11px;
+      line-height: 20px;
+      font-weight: 300;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-decoration: none;
+      -webkit-transition: all .2s linear;
+              transition: all .2s linear; }
+      #menu ul li a:hover {
+        color: #e7746f; }
+
+.header {
+  text-align: center; }
+  .header h1 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #222; }
+  .header hr {
+    width: 10%;
+    background: rgba(102, 102, 102, 0.3);
+    height: 1px;
+    margin: 25px auto; }
+  .header p {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #666; }
+
+#services .bgr-services {
+  background: #f5f5f5;
+  padding: 100px 0; }
+  #services .bgr-services .services-content {
+    margin: 50px 0 0 0;
+    padding: 3px 0; }
+    #services .bgr-services .services-content .card {
+      padding: 10px; }
+      #services .bgr-services .services-content .card .card-n {
+        background: #fff;
+        text-align: center;
+        padding: 50px 20px;
+        box-shadow: 0 2px 0 rgba(102, 102, 102, 0.2); }
+        #services .bgr-services .services-content .card .card-n h3 {
+          margin: 25px 0;
+          font-size: 13px;
+          line-height: 16px;
+          color: #222;
+          font-weight: bold;
+          text-transform: uppercase;
+          letter-spacing: 2px; }
+        #services .bgr-services .services-content .card .card-n p {
+          font-size: 14px;
+          line-height: 25px;
+          font-weight: 300;
+          color: #666; }
 
 /*# sourceMappingURL=main.css.map */
