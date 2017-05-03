@@ -1,5 +1,10 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: "Raleway", sans-serif; }
+
+#home .bgr-home {
+  background: url("../../img/cover.jpg") no-repeat;
+  background-size: cover; }
 
 /*# sourceMappingURL=main.css.map */
