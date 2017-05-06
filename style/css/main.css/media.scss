@@ -1,0 +1,69 @@
+@media screen and (max-width: 1400px) {
+    .menu-list {
+        text-align: right;
+    }
+    .menu-bars {
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .menu-list {
+        text-align: center;
+    }
+    .logo-text {
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .menu-list {
+        display: none;
+    }
+    .menu-bars {
+        display: block;
+        text-align: right;
+    }
+    .logo-text {
+        text-align: left;
+    }
+    .bgr-home_inside {
+        h1 {
+            font-size: 24px;
+        }
+    }
+    .works {
+        display: grid;
+        grid-template-columns: minmax(500px, 1fr) minmax(500px, 1fr) minmax(500px, 1fr);
+        grid-auto-rows: auto auto auto;
+        grid-gap: 30px;
+        .card {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            margin: 0 50px;
+        }
+    }
+    .slider-clients {
+        .says {
+            width: 69%;
+        }
+        img {
+            width: 29%;
+            height: auto;
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .slider-clients {
+        .says {
+            width: 100%;
+            text-align: center;
+        }
+        img {
+            width: 60%;
+            height: auto;
+            margin: 20px auto;
+        }
+    }
+}
+
+
